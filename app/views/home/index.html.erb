@@ -15,11 +15,11 @@
           
           <div class="d-grid gap-2">
           <!-- Generate Button -->
-          <button type="submit" class="btn btn-primary btn-block">Generate Image</button>
-		  <!-- Display area for generated image -->
-		  <div class="mt-4 text-center" id="generated-image">
+          <button id="generate_image" type="submit" class="btn btn-primary btn-block">Generate Image</button>		  
+          <!-- Display area for generated image -->
+		  <div class="mt-4 text-center" id="generated-img">
 		    <!-- Image will be displayed here -->
-		    <img src="https://via.placeholder.com/300" alt="Generated Image" class="img-fluid">
+		    <img src=<%= @result %> alt="Generated Image" class="img-fluid">
 		  </div>
       	  </div>
         </form>
@@ -27,3 +27,4 @@
     </div>
   </div>
 </div>
+
